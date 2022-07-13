@@ -1,2 +1,43 @@
-// Anotações legais
+// Anotações legais //
 
+/* tipos de dados */
+    // Não sei se tá certo o uso de array e objetos mas é isso aí
+    let Data_types = [
+        number: {
+            infinity,
+            NaN
+        },
+        string,
+        boolean,
+        null,
+        undefined,
+        object: {
+            array
+        },
+        function
+    ]
+
+/* conversão de dados */
+
+    parseInt(n) // para converter em um número inteiro
+    parseFloat(n) // para converter em um número real (ponto ou vírgula)
+
+    // ou
+
+    number(n) // para deixar que o javascript se vire em saber qual é
+
+    // ou para transformar o dado em uma string
+
+    n.toString() // jeito 1
+    String(n) // jeito 2
+
+/* Formatação de números */
+
+    var n1 = 1543.5
+    n1.toFixed(2) // retorna 1543.50
+
+    // para trocar o . por ,
+    n1.toFixed(2).replace('.', ',') // retorna 1543,50
+
+    // comando que provavelmente eu não vou usar mas é muito importante
+    n1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) // retorna R$ 1.543,50
