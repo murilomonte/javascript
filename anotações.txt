@@ -2,6 +2,7 @@
 
 /* tipos de dados */
     // Não sei se tá certo o uso de array e objetos mas é isso aí
+    // conserto depois 
     let Data_types = [
         number: {
             infinity,
@@ -41,3 +42,25 @@
 
     // comando que provavelmente eu não vou usar mas é muito importante
     n1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) // retorna R$ 1.543,50
+
+
+/* Precedência */
+    |   ()
+    |   ** // Potenciação
+    |   * / % 
+    |   + -
+    \/
+
+/* Auto atribuições */
+    var n = 3
+    n = n + 4   ou  n += 4
+    n = n - 5   ou  n -= 5
+    n = n * 4   ou  n *= 4
+    n = n / 2   ou  n /= 2
+    n = n ** 2  ou  n **= 2
+    n = n % 5   ou  n %= 5
+
+/* Incremento */
+    var x = 5
+    x = x + 1   ou  x++
+    x = x - 1   ou  x--
