@@ -49,18 +49,42 @@
     |   ** // Potenciação
     |   * / % 
     |   + -
+    |   > < >= <= == === != !==
+    |   !
+    |   &&
+    |   ||
     \/
 
 /* Auto atribuições */
     var n = 3
-    n = n + 4   ou  n += 4
-    n = n - 5   ou  n -= 5
-    n = n * 4   ou  n *= 4
-    n = n / 2   ou  n /= 2
-    n = n ** 2  ou  n **= 2
-    n = n % 5   ou  n %= 5
+    n = n + 4       ou      n += 4
+    n = n - 5       ou      n -= 5
+    n = n * 4       ou      n *= 4
+    n = n / 2       ou      n /= 2
+    n = n ** 2      ou      n **= 2
+    n = n % 5       ou      n %= 5
 
 /* Incremento */
     var x = 5
-    x = x + 1   ou  x++
-    x = x - 1   ou  x--
+    x = x + 1       ou      x++
+    x = x - 1       ou      x--
+
+/* Relacionais */
+    >       // maior
+    <       // menor
+    >=      // maior ou igual
+    <=      // menor ou igual
+    ==      // igual (testa o valor)
+    ===     // estritamente igual (testa o valor e o tipo)
+    !=      // diferente (testa o valor)
+    !==     // estritamente diferente (testa o valor e o tipo)
+
+/* Lógicos */
+    !       // Negação   (não)
+    &&      // conjunção (e)
+    ||      // disjunção (ou)
+
+/* Ternário */
+    teste ? true : false 
+
+    
