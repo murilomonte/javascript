@@ -88,3 +88,27 @@
     teste ? true : false 
 
     
+/* DOM */
+    Document
+    Object 
+    Model
+
+    var p1 = window.document.getElementsByTagName('p')[0] // o 0 serve para selecionar o primeiro elemento que aparecer, tipo :first-child no css
+
+    /* árvore DOM */
+        // achei mais fácil fazer como se fossem diretórios :|
+        // exemplo de DOM
+        /window
+            /location
+            /history
+            /Document
+                /html
+                    /head
+                        /meta
+                        /title
+                    /body
+                        /h1
+                        /p
+                            /strong
+                        /p
+                        /div
