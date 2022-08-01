@@ -96,7 +96,7 @@
     var p1 = window.document.getElementsByTagName('p')[0] // o 0 serve para selecionar o primeiro elemento que aparecer, tipo :first-child no css
 
     /* árvore DOM */
-        // achei mais fácil fazer como se fossem diretórios :|
+        // achei mais fácil fazer (e entender) como se fossem diretórios :|
         // exemplo de DOM
         /window
             /location
@@ -112,3 +112,12 @@
                             /strong
                         /p
                         /div
+
+/* Eventos DOM */
+    // Eventos de Mouse
+        mouseenter // quando o cursor entrar no objeto
+        mousemove  // quando o cursor se mover dentro do objeto
+        mousedown  // quando o cursor clicar e segurar o objeto
+        mouseup    // quando o cursor soltar o clique longo
+        click      // quando o mouse clicar curtamente
+        mouseout   // quando o cursor sair do objeto
