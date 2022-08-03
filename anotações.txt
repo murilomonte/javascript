@@ -121,3 +121,19 @@
         mouseup    // quando o cursor soltar o clique longo
         click      // quando o mouse clicar curtamente
         mouseout   // quando o cursor sair do objeto
+
+/* Condições */
+    // Switch
+    estrutura:
+
+    switch (expressão) {
+        case valor1 :
+            // caso a expressão seja o valor1, faça isso
+            break
+        case valor2:
+            // faça isso caso seja
+            break
+        default:
+            // caso não seja nenhuma anterior
+            break
+    }
