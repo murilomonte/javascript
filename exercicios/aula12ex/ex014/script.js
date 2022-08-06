@@ -4,7 +4,7 @@ let diaHora = dia.getHours()
 let divImg = document.getElementById('imagem')
 let divHora = document.getElementById('horario')
 
-divHora.innerHTML = `<p>Agora são ${diaHora} horas`
+divHora.innerHTML = `<p>Agora são ${diaHora} horas</p>`
 if (diaHora < 12) {
     //#4d5e2a
     document.body.style = `background-color: #4d5e2a;`
