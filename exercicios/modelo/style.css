@@ -22,11 +22,6 @@ section {
     text-align: center;
 }
 
-#div-imagem > img {
-    border-radius: 50%;
-    margin: auto;
-}
-
 footer {
     text-align: center;
     margin: 20px;
