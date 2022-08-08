@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <main>
+        <header>
+            <h1>
+                Verificador de idade
+            </h1>
+        </header>
+        <section>
+            <div id="div-form">
+                <form>
+                    <p>
+                        <label for="inasc">Ano de nascimento:</label>
+                        <input type="number" name="nasc" id="inasc">
+                    </p>
+                    <p>
+                        <label for="isex">Sexo:</label>
+                        <input type="radio" name="sex" id="isex" value="M"> <label for="isex">Masculino</label>
+                        <input type="radio" name="sex" id="isex" value="F"> <label for="isex">Feminino</label>
+                    </p>
+                    <p>
+                        <input type="button" value="verificar" onclick="idadeSex()">
+                    </p>
+                </form>
+            </div>
+            <div id="div-res">
+                <p></p>
+                
+            </div>
+        </section>
+        <footer>
+            Cursoemvideo
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
