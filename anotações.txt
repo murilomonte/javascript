@@ -139,3 +139,23 @@
     }
 
 /* Laços */
+
+há 3 tipos de laços, sendo eles:
+
+while ( ) {
+
+}
+
+ou 
+
+do {
+
+} while ( )
+
+ou 
+
+for (  ;  ;  ) {
+    
+}
+
+que testa o valor e enquanto ele for verdadeiro, ele executa o bloco
