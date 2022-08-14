@@ -1,5 +1,7 @@
 // Anotações legais //
 
+depois eu faço em markdown (nunca)
+
 /* tipos de dados */
     // Não sei se tá certo o uso de array e objetos mas é isso aí
     // conserto depois 
@@ -159,3 +161,24 @@ for (  ;  ;  ) {
 }
 
 que testa o valor e enquanto ele for verdadeiro, ele executa o bloco
+
+/* Variáveis compostas */
+
+um array (ou vetor) é uma variável que contém vários elementos. Cada elemento é composto pelo seu valor e sua chave de identificação
+
+let num = [5, 8, 2, 9, 3]
+
+// adiciona o número 6 na posição 3 do vetor  
+num[3] = 6
+
+// adiciona o número 3 na última posição do array
+num.push(3)
+
+// mostra a quantidade de valores que há no vetor
+console.log(num.length)
+
+// coloca todos os elementos do vetor em ordem crescente
+num.sort()
+
+// procura o número '7' dentro da array, caso seja encontrado, será devolvido a posição. Caso contrário, será devolvido '-1'
+console.log(num.indexOf(7))
