@@ -18,6 +18,10 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
 }
 
+select {
+    width: 200px;
+}
+
 footer {
     text-align: center;
     margin: 20px;
