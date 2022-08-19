@@ -19,7 +19,6 @@ function conta() { // contabiliza o número
         res.innerHTML = ''
         log.innerText = `o número ${num} foi adicionado.`
         ilog.appendChild(log)
-    
         return dados.push(num)
 
     }
