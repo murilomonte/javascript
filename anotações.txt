@@ -182,3 +182,26 @@ depois eu faço em markdown (nunca)
 
     // procura o número '7' dentro da array, caso seja encontrado, será devolvido a posição. Caso contrário, será devolvido '-1'
     console.log(num.indexOf(7))
+
+/* Quais são os próximos passos agora? */
+Tem que estudar isso aí, não exatamente na mesma ordem, mas tem que estudar.
+Qualquer coisa veja o https://roadmap.sh
+
+1 - function
+    arrow function
+    callbacks
+    funções anônimas
+    iife
+    javascript funcional
+2 - objetos
+    orientação a objetos
+3 - modularização
+4 - expressões regulares (RegEx)
+5 - Json
+6 - Ajax
+7 - NodeJS
+8 - frameworks e bibliotecas
+
+Sites que podem ajudar:
+https://www.w3schools.com/ (tutoriais e exercícios de várias linguagens)
+
